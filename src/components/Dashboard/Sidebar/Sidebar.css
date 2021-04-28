@@ -1,0 +1,32 @@
+.sidebar{
+    
+    position: fixed;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    
+    
+}
+
+.sidebar > .sideBarLink{
+    display: flex;
+    color: white;
+    font-weight: 700;
+    padding: 5px 0px;
+    align-items: center;
+}
+.sidebar > .sideBarLink:last-child{
+    margin-top: 250px;
+}
+.sidebar > .sideBarLink > *:first-child{
+    margin-left: 25px;
+}
+.sidebar > .sideBarLink > *:last-child{
+    padding-top: 20px;
+}
+.sidebar > .sideBarLink:hover{
+    box-shadow: 5px 5px 10px lightseagreen;
+}
+.sidebar .icon{
+    margin-top: 5px;
+    margin-right: 10px;
+}

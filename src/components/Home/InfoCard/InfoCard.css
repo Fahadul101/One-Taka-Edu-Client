@@ -1,0 +1,19 @@
+.info-primary{
+    background-color:darkturquoise
+}
+
+.info-dark{
+    background-color:dodgerblue
+}
+
+.info-container{
+    text-align: center;
+    height: 180px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.info-icon{
+    font-size: 5em;
+    
+}
